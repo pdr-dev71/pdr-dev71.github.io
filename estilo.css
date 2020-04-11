@@ -1,0 +1,56 @@
+/* Formatação Corpo */
+body {
+    background: #87CEFA;
+    font-size: 18px , fantasy, verdana, sans-serif;
+    text-align: center;
+    padding: 14px;
+    margin: 6px;
+    
+}
+
+#perfil {
+    float: left;
+    padding: 4px;
+}
+
+/* Formatação Cabecalho */
+#cabecalho {
+    background: grey;
+    padding: 8px;
+    margin: 6 auto;
+}
+
+#area-logo {
+    color: white;
+
+}
+
+/* Formatação links */
+a {
+    text-decoration: none;
+    color: #FFFAF0;
+   
+    
+}
+
+a:hover {
+    background: blue;
+    padding: 6px;
+    margin: 4px;
+}
+
+/* formatação Rodapé */
+#footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+
+/* Formatacao contato */
+
+h1 {
+    font-size: 40px;
+    color: white
+    text-align: center;
+    font-family: broadway;
+}
