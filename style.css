@@ -1,0 +1,81 @@
+body {
+	font-family: sans-serif;
+	background-color: #2E2E2E;
+	color: white;
+	
+}
+
+#cabecalho {
+	color: white;
+	text-align: center;
+}
+
+.navegacao {
+	list-style-type: none;
+	text-align: center;
+}
+
+li {
+	display: inline-block;
+	padding: 8px 12px 9px 9px;
+	margin-left: 5px;
+	text-decoration: none;
+	color: white;
+	border-radius: 10px;
+	background-color: #424242;
+	transition: 2s;
+}
+
+li:hover {
+	background-color: #0101DF;
+	transition: 0.5s;
+	
+}
+
+
+.links-nav {
+	text-decoration: none;
+	color: #FFFFFF;
+	
+}
+
+
+.perfil {
+	border-radius: 50%;
+	width: 180px;
+
+}
+
+#footer {
+	text-align: center;
+	background-color: #2E2E2E;
+	padding: 20px;
+	margin: 4px;
+}
+
+img  {
+	width: 35px;
+	padding: 5px;
+	text-align: center;
+
+}
+
+#footer-social {
+	text-align: center;
+	margin-top: 200px;
+}
+
+#copy {
+	 padding-top: 4px 3px 4px 5px;
+	 margin: 5px;
+	 text-align: center;
+}
+
+/* Formatação educação */
+
+#edu {
+	background-color: #6E6E6E;
+	font-size: 14px;
+	font-family: sans-serif;
+}
+
