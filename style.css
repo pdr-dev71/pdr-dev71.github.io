@@ -1,6 +1,10 @@
-body {
+*{
 	padding: 0;
 	margin: 0;
+}
+
+body {
+	
 	font-family: sans-serif;
 	background-color: #2E2E2E;
 	color: white;
@@ -13,9 +17,12 @@ body {
 	background-color: #6E6E6E;
 }
 
+nav{
+	text-align: center;	
+}
 .navegacao {
 	list-style-type: none;
-	text-align: center;
+	
 }
 
 .descricao {
@@ -29,10 +36,10 @@ body {
 	font-family: 'Trebuchet MS';
 }
 
-li {
+.navegacao li {
 	display: inline-block;
 	padding: 10px 11px 9px 9px;
-	margin-left: 7px;
+	margin: 10px 7px 10px 0;
 	text-decoration: none;
 	color: white;
 	border-radius: 10px;
@@ -40,7 +47,7 @@ li {
 	transition: 1s;
 }
 
-li:hover {
+.navegacao li:hover {
 	background-color: #0101DF;
 	transition: 0.5s;
 	
