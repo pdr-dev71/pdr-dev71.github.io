@@ -1,15 +1,21 @@
-*{
+/* Zerando a formatação padrão */
+
+* {
 	padding: 0;
 	margin: 0;
 }
 
+/* Formatação corpo da pagina */
+
 body {
-	
 	font-family: sans-serif;
 	background-color: #2E2E2E;
 	color: white;
 
 }
+
+
+/* Formatação Cabecalho */
 
 #cabecalho {
 	color: white;
@@ -17,23 +23,31 @@ body {
 	background-color: #6E6E6E;
 }
 
-nav{
-	text-align: center;	
-}
-.navegacao {
-	list-style-type: none;
-	
+/* Formatação dos itens no cabecalho */
+
+#foto-perfil {
+	border-radius: 50%;
+	width: 180px;
+	padding: 8px;
 }
 
-.descricao {
-	text-align: center;
-	font-size: 22px;
-	font-family: 'Segoe UI', Tahoma, sans-serif;
-}
-
-.nome {
+.nome-perfil {
 	font-size: 20px;
 	font-family: 'Trebuchet MS';
+	padding-bottom: 3px;
+}
+
+/* Formatação da barra de navegação */
+
+.navegacao {
+	list-style-type: none;
+	text-align: center;	
+}
+
+.links-nav {
+	text-decoration: none;
+	color: #FFFFFF;
+	
 }
 
 .navegacao li {
@@ -48,55 +62,111 @@ nav{
 }
 
 .navegacao li:hover {
-	background-color: #0101DF;
+	background-color: #0080FF;
 	transition: 0.5s;
 	
 }
 
+/*Formatação conteudo da pagina */
 
-.links-nav {
-	text-decoration: none;
-	color: #FFFFFF;
-	
-}
-
-
-.perfil {
-	border-radius: 50%;
-	width: 180px;
-
-}
-
-#footer {
+.descricao-perfil {
 	text-align: center;
-	background-color: #2E2E2E;
-	padding: 20px;
-	margin: 4px;
+	font-size: 22px;
+	font-family: 'Segoe UI', Tahoma, sans-serif;
 }
 
-img  {
-	width: 35px;
-	padding: 5px;
-	text-align: center;
-
-}
+/* Formatação Rodapé */
 
 #footer-social {
 	text-align: center;
-	margin-top: 200px;
+	margin-top: 100px;
+
+	
 }
 
-#copy {
+.link-footer {
+	margin: 4px;
+}
+
+.img-footer  {
+	width: 35px;
+	text-align: center;
+
+}
+
+
+#copy-footer {
 	 padding-top: 4px 3px 4px 5px;
 	 margin: 5px;
 	 text-align: center;
+	 
 }
 
-/* Formatação educação */
+/* Formatação pagina educação */
 
-#edu {
+
+body.edu {
+	font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	padding: 0;
+	margin 0;
 	background-color: #6E6E6E;
-	font-size: 14px;
-	font-family: sans-serif;
 }
+
+.head-edu {
+	text-align: center;
+	padding: 8px;
+	background-color: #424242;
+
+}
+
+.fundamental {
+	text-align: center;
+	margin-top: 8px;
+	padding: 8px;
+	background-color: #6E6E6E;
+}
+
+.medio {
+	text-align: center;
+	margin-top: 8px;
+	padding: 8px;
+	background-color: #6E6E6E;
+}
+
+.superior {
+	text-align: center;
+	margin-top: 8px;
+	padding: 8px;
+	background-color: #6E6E6E;
+}
+
+#copyright-edu {
+	text-align: center;
+}
+
+/* Formatação da pagina portifolio */
+
+
+
+/* Formatação da pagina sobre */
+
+#pagina-sobre {
+	background-color: #6E6E6E;
+	font-family: Arial, Helvetica, sans-serif
+}
+
+.title-sobre, .subtitle-sobre {
+	text-align: center;
+	padding: 5px;
+}
+
+.title-preferencia {
+	text-align: center;
+}
+
+.nav-preferencia {
+	text-align: center;
+	border: 1px solid red;
+}
+
 
